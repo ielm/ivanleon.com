@@ -47,7 +47,7 @@ export default function AboutPage() {
             Hi! I'm Ivan
           </h1>
           <br />
-          <p className="mt-4 text-zinc-300 animate-fade-in ">
+          <p className="animate-fade-in mt-4 text-zinc-300 ">
             I’m an antidisciplinary cognitive scientist, artist, and
             technologist with a passion for building the world around me. Above
             all, I believe in pursuing the elegant integration of technology in
@@ -67,17 +67,19 @@ export default function AboutPage() {
             audio-visual performance installations in my free time and build
             generative audio-visual performance tools for artists and musicians.
           </p>
-          <div className="container flex-col my-16 animate-fade-in text-center">
+          <div className="animate-fade-in container my-16 flex-col text-center">
             <h3 className="text-2xl text-zinc-200">Research Interests</h3>
+            {/* <div className="my-3 flex h-px w-auto justify-center bg-zinc-600" /> */}
+            <div className="my-3 flex w-auto h-px w-screen bg-gradient-to-r from-zinc-300/0 via-zinc-300/50 to-zinc-300/0 " />
             <div className="flex justify-center">
-              <div className="mx-4 flex flex-col">
+              <div className="mx-6 flex flex-col">
                 <ul className=" text-zinc-300">
                   {column1.map((bullet) => (
                     <li key={bullet}>{bullet}</li>
                   ))}
                 </ul>
               </div>
-              <div className="mx-4 flex flex-col">
+              <div className="mx-6 flex flex-col">
                 <ul className=" text-zinc-300">
                   {column2.map((bullet) => (
                     <li key={bullet}>{bullet}</li>
