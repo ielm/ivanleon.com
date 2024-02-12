@@ -70,7 +70,7 @@ export default function AboutPage() {
           <div className="animate-fade-in container my-16 flex-col text-center">
             <h3 className="text-2xl text-zinc-200">Research Interests</h3>
             {/* <div className="my-3 flex h-px w-auto justify-center bg-zinc-600" /> */}
-            <div className="my-3 flex w-auto h-px w-screen bg-gradient-to-r from-zinc-300/0 via-zinc-300/50 to-zinc-300/0 " />
+            <div className="my-3 flex w-auto h-px bg-gradient-to-r from-zinc-300/0 via-zinc-300/50 to-zinc-300/0 " />
             <div className="flex justify-center">
               <div className="mx-6 flex flex-col">
                 <ul className=" text-zinc-300">
